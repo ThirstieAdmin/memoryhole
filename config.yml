@@ -16,7 +16,7 @@ title: Random Access Manuals
 # ---------------------------------------------------------------------
 # INCLUDE CLIENT PORT IF NOT 80/443!
 
-host: http://wiki.thirstie.engineering
+host: https://wiki.thirstie.engineering
 
 # ---------------------------------------------------------------------
 # Port the main server should listen to (80 by default)
