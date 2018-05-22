@@ -36,4 +36,4 @@ services:
       WIKI_ADMIN_EMAIL: technology@thirstie.com
     volumes:
       - ./config.yml:/var/wiki/config.yml
-      - ./.ssh:/var/wiki/.ssh
+      - /home/core/.ssh:/var/wiki/.ssh
