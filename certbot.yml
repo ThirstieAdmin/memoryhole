@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  init-server:
+    image: nginx
+    volumes:
+      - /var/www:/usr/share/nginx/html
+      - /var/wiki/nginx/certbot.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - 80:80
+
+  init-prod:
+    image: certbot/certbot
+    command: 'certonly --webroot -w /usr/share/nginx/html --preferred-challenges http -d wiki.thirstie.engineering --email technology@thirstie.com --agree-tos'
+    volumes:
+      - /var/www:/usr/share/nginx/html
+      - /var/certs:/etc/letsencrypt
+
+  renew:
+    image: certbot/certbot
+    command: 'renew'
+    volumes:
+      - /volumes/proxy/shared:/shared
+      - /var/certs:/etc/letsencrypt
