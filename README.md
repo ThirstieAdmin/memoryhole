@@ -1,2 +1,0 @@
-# memoryhole
-Internal engineering documentation
