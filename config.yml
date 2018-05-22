@@ -93,7 +93,7 @@ git:
   branch: wiki
   auth:
     type: ssh
-    privateKey: /var/wiki/.ssh/id_rsa
+    privateKey: /home/core/.ssh/id_rsa
     sslVerify: true
 
   # Default email to use as commit author
