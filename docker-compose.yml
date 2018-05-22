@@ -11,7 +11,7 @@ services:
       - '443'
     volumes:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-      - ./nginx/certs/:/etc/ssl/certs
+      - /var/certs/:/etc/letsencrypt
   wikidb:
     image: mongo
     expose:
