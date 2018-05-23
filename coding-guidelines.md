@@ -6,7 +6,7 @@ Many very smart developers with many more years of experience have written about
 Their work is a good place to start.
 
 - [PEP 8 – Style Guide for Python Code][pep8]
-- [Code Style *The Hitchiker's Guide to Python*][hhgp]
+- [Code Style – from *The Hitchiker's Guide to Python*][hhgp]
 
 Let's get the specifics out of the way first.
 
