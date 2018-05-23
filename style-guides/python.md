@@ -22,7 +22,7 @@ Therefore, we prefer lines to have fewer than 80 characters, but we won't reject
 ## Line Breaks Around Binary Operators
 Complex expressions using binary operators should place the line break before the operator.
 
-Bad:
+> Bad:
 {.is-danger}
 
 ```
@@ -33,7 +33,7 @@ cart_total = (subtotal +
              tip)
 ```
 
-Good:
+> Good:
 {.is-success}
 
 ```
