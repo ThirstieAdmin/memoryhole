@@ -1,4 +1,4 @@
-<!-- TITLE: An Introduction to Software Style Guides -->
+<!-- TITLE: Introduction to Software Style Guides -->
 
 # The Motivation of Style
 
