@@ -4,7 +4,7 @@
 
 First, let me say a little bit about my motivation. I don’t promote style guides because I’m some kind of software despot who wants everyone to program *exactly like me*. These guides are not laws. They’re observations that when code is written a certain way, we introduce fewer bugs, and write more understandable code.
 
-One of the primary reasons we follow the recommendations of a style guide is that __we want to make wrong code look wrong.__ (Joel Spolsky [wrote about this back in 2005][spolsky])
+One of the primary reasons we follow the recommendations of a style guide is that __we want to make wrong code look wrong.__ ([Joel Spolsky wrote about this back in 2005][spolsky])
 
 [spolsky]: https://www.joelonsoftware.com/2005/05/11/making-wrong-code-look-wrong/
 
