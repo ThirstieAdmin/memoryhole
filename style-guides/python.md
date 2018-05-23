@@ -22,23 +22,23 @@ Therefore, we prefer lines to have fewer than 80 characters, but we won't reject
 ## Line Breaks Around Binary Operators
 Complex expressions using binary operators should place the line break before the operator.
 
-> Bad
+> Bad:
 > ```
 > cart_total = (subtotal +
->             (subtotal * tax_rate) -
->             discount +
->             delivery_fee +
->             tip)
-> ```
+>              (subtotal * tax_rate) -
+>              discount +
+>              delivery_fee +
+>              tip)
+```
 {.is-danger}
 
-> Good
-```
-cart_total = (subtotal
-              + (subtotal * tax_rate)
-              - discount
-              + delivery_fee
-              + tip)
+> Good:
+> ```
+> cart_total = (subtotal
+>               + (subtotal * tax_rate)
+>               - discount
+>               + delivery_fee
+>               + tip)
 ```
 
 
