@@ -9,7 +9,7 @@ Welcome to Thirstie's Engineering Wiki. We hope you like it here.
 - [Software Style Guides](style-guides)
 - Devops Manuals
 - Data Model Documentation
-- [API Documentation](developers.thirstie.com)
+- [API Documentation](https://developers.thirstie.com/)
 - Service Documentation
 
 # Jargon File
