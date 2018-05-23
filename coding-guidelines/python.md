@@ -1,13 +1,14 @@
-<!-- TITLE: Coding Guidelines -->
+<!-- TITLE: Python Style -->
 
 Sometimes it's good to be oppinionated.
-# Python
+# Introduction
 Many very smart developers with many more years of experience have written about code style before us.
 Their work is a good place to start.
 
 - [PEP 8 – Style Guide for Python Code][pep8]
 - [Code Style – from *The Hitchiker's Guide to Python*][hhgp]
 
+# Syntax
 Let's get the specifics out of the way first.
 
 ## Indentation
@@ -42,5 +43,6 @@ cart_total = (subtotal
 [pep8]: https://www.python.org/dev/peps/pep-0008/
 [hhgp]: http://docs.python-guide.org/en/latest/writing/style/
 
-# JavaScript
-Don't even bother; it's all garbage no matter what.
+# Semantics
+
+# Tools
