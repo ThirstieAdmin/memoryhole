@@ -25,3 +25,7 @@ The second concern of a style guide is the stylistic aspect of code. Here, we’
 After syntax and semantics, style guides also provide a high-level discussion of software architecture patterns that are commonly applied in the code base.
 
 Finally, we provide tool recommendations for automated static analysis. Static analysis tools can help identify a number of subtleties you may have missed when writing your code. The tools also have limitations. The tool section of a style guide lays out some of the recommended processes for use of these tools.
+
+# Specific Languages
+- [Python Style Guide](style-guides/python)
+- [JavaScript Style Guide](style-guides/javascript)
