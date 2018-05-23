@@ -6,7 +6,7 @@ Welcome to Thirstie's Engineering Wiki. We hope you like it here.
 ![Mojito](/uploads/media/mojito.jpg "Mojito")
 # Sections
 - Process Manuals
-- Coding Guidelines
+- [Software Style Guides](style-guides)
 - Devops Manuals
 - Data Model Documentation
 - API Documentation
