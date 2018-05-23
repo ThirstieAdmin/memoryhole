@@ -22,8 +22,9 @@ Therefore, we prefer lines to have fewer than 80 characters, but we won't reject
 ## Line Breaks Around Binary Operators
 Complex expressions using binary operators should place the line break before the operator.
 
+> Bad
+{.is-danger}
 ```
-# Bad: 
 cart_total = (subtotal +
               (subtotal * tax_rate) -
               discount +
@@ -31,14 +32,15 @@ cart_total = (subtotal +
               tip)
 ```
 
+> Good
 ```
-# Good:
 cart_total = (subtotal
               + (subtotal * tax_rate)
               - discount
               + delivery_fee
               + tip)
 ```
+
 
 [pep8]: https://www.python.org/dev/peps/pep-0008/
 [hhgp]: http://docs.python-guide.org/en/latest/writing/style/
