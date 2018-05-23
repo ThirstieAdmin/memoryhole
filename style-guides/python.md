@@ -24,10 +24,10 @@ Complex expressions using binary operators should place the line break before th
 
 ```
 cart_total = (subtotal +
-             (subtotal * tax_rate) -
-             discount +
-             delivery_fee +
-             tip)
+              (subtotal * tax_rate) -
+              discount +
+              delivery_fee +
+              tip)
 ```
 
 > Good: it's immediately clear what operation is applied in each line.
