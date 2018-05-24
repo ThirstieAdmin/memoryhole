@@ -1,8 +1,8 @@
 <!-- TITLE: Order Model -->
 
 # Fields
-- `id`
-- `order_key` *Varchar.* The order UUID
+- `id` *Bigint, Primary Key.* The order ID.
+- `order_key` *Varchar.* The order UUID.
 - `external_reference`  *Varchar, optional.* The third-party client's ID.
 - `cart_id` *Bigint.* The ID of the cart containing the order.
 - `merchant_ref` *Varchar.* The TMK of the retailer fulfilling the order.
