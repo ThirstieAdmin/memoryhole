@@ -20,9 +20,9 @@ To generate Cart keys:
 - Return the string '__{a}-{b}__' (e.g.: `02HQ4ER-8WG`)
 
 To generate Order keys:
-- Set __*pfx*__ to the `cart_key` of the order's cart
-- Set __*sfx*__ to two randomly selected characters from the base-32 alphabet
-- Return the string '__*{pfx}-{sfx}*__' (e.g.: `02HQ4ER-8WG-4P`)
+- Set __pfx__ to the `cart_key` of the order's cart
+- Set __sfx__ to two randomly selected characters from the base-32 alphabet
+- Return the string '__{pfx}-{sfx}__' (e.g.: `02HQ4ER-8WG-4P`)
 
 # Future Expansion
 The proposed algorithms should be sufficient for at least long enough to come up with a viable replacement if order volume or service duration exceed the estimates presented above. In that case, we may choose to prefix the keys with a version identifier.
