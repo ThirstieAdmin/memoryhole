@@ -14,10 +14,10 @@ This document discusses the Cart and Order key generation algorithm currently us
 Generating a Cart key uses the time elapsed since a custom epoch. This gives us sufficient key space for order volume growth up to 1000 carts per second with a service life of 20 years.
 
 To generate Cart keys:
-- Compute the time since January 1, 2010 with millisecond precision as __*∆t*__
-- Set __*a*__ to the seconds in __*∆t*__ converted to a base-32 string (max 7 characters)
-- Set __*b*__ to the milliseconds in __*∆t*__ converted to a base-32 string (max 3 characters)
-- Return the string '__*{a}-{b}*__' (e.g.: `02HQ4ER-8WG`)
+- Compute the time since January 1, 2010 with millisecond precision as __∆t__
+- Set __a__ to the seconds in __∆t__ converted to a base-32 string (max 7 characters)
+- Set __b__ to the milliseconds in __∆t__ converted to a base-32 string (max 3 characters)
+- Return the string '__{a}-{b}__' (e.g.: `02HQ4ER-8WG`)
 
 To generate Order keys:
 - Set __*pfx*__ to the `cart_key` of the order's cart
