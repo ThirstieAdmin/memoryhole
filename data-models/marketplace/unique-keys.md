@@ -4,7 +4,7 @@
 Initially, Marketplace Carts and Orders used base-58 encoded UUIDs as unique keys for records. This presented two usability problems: the keys did not strictly increase with subsequent creation events and the keys were difficult to both read visually and speak aloud.
 
 Ideally, Cart keys should be:
-- __Monotonicallyincreasing__ (sorting carts by key should be the same as sorting carts by date created)
+- __Monotonically increasing__ (sorting carts by key should be the same as sorting carts by date created)
 - __Non-sequential__ (comparing keys generated at different times should not leak order volume)
 - __Human readable__ (a customer should be able to read an Order or Cart key over the phone to to customer service)
 
