@@ -2,7 +2,7 @@
 
 # Fields
 - `id` *Bigint, Primary Key.* The order ID.
-- `order_key` *Varchar.* The order UUID.
+- `order_key` *Varchar.* The order's unique key for external consumption. [Described here](unique-keys)
 - `external_reference`  *Varchar, optional.* The third-party client's ID.
 - `cart_id` *Bigint.* The ID of the cart containing the order.
 - `merchant_ref` *Varchar.* The TMK of the retailer fulfilling the order.
