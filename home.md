@@ -8,7 +8,7 @@ Welcome to Thirstie's Engineering Wiki. We hope you like it here.
 - Process Manuals
 - [Software Style Guides](style-guides)
 - [Devops Manuals](devops)
-- Data Model Documentation
+- [Data Model Documentation](data-models)
 - [API Documentation](https://developers.thirstie.com/)
 - Service Documentation
 
