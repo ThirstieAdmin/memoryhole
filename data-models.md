@@ -7,6 +7,7 @@
 ## Catalog
 
 ## Marketplace
+[Marketplace Data Models](data-models/marketplace)
 
 ## Publishing
 
